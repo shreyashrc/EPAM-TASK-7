@@ -1,0 +1,9 @@
+package gof.StructuralDesign.Facade;
+
+public class Circle implements Shape{
+	public void draw() {
+		System.out.println("Inside Square::draw() method.");
+	}
+
+
+}
